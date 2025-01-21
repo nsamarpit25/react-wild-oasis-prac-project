@@ -1,6 +1,6 @@
 # The Wild Oasis Hotel Management System
 
-A modern hotel management application built with React and Supabase, designed for hotel employees to manage their daily operations efficiently.
+A practice project built while learning React and Supabase. This hotel management application demonstrates modern React development practices and integration with a backend service.
 
 ## 🛠️ Technologies Used
 
@@ -63,17 +63,6 @@ A modern hotel management application built with React and Supabase, designed fo
 - Error boundaries
 - Loading states and skeletons
 
-## 💼 Best Practices
-
-- Component composition
-- Custom hooks abstraction
-- Proper error handling
-- Performance optimization
-- Code splitting
-- Proper TypeScript implementation
-- Consistent styling patterns
-- Reusable components
-
 ## 🚀 Getting Started
 
 1. Clone the repository
@@ -90,9 +79,14 @@ VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_KEY=your_supabase_anon_key
 ```
 
-## 📝 License
+## 📝 Note
 
-MIT License
+This project was created as a learning exercise to practice:
+
+- React development patterns
+- Integration with Supabase
+- Modern React features and best practices
+- Building complex, real-world applications
 
 ## 🙏 Acknowledgments
 
