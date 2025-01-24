@@ -21,7 +21,7 @@ function ProtectedRoute({ children }) {
  // 3. if there is no authenticated user redirect to login
  useEffect(
   function () {
-   if (!isAuthenticated && !isLoading) navigate("/");
+   if (!isAuthenticated && !isLoading) navigate("/login");
   },
   [isAuthenticated, isLoading, navigate]
  );
