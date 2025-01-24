@@ -13,8 +13,24 @@ const StyledAppLayout = styled.div`
 const Main = styled.main`
  background-color: var(--color-grey-50);
  padding: 4rem 4.8rem 6.4rem;
+ overflow: auto;
 
- /* overflow: scroll; */
+ &::-webkit-scrollbar {
+  width: 8px;
+ }
+
+ &::-webkit-scrollbar-track {
+  background: transparent;
+ }
+
+ &::-webkit-scrollbar-thumb {
+  background: var(--color-grey-300);
+  border-radius: 4px;
+ }
+
+ &::-webkit-scrollbar-thumb:hover {
+  background: var(--color-grey-400);
+ }
 `;
 
 const Container = styled.div`
