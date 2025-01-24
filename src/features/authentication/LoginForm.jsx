@@ -8,18 +8,22 @@ import SpinnerMini from "../../ui/SpinnerMini";
 import styled from "styled-components";
 
 const TestCredentials = styled.div`
- padding: 1.2rem 2.4rem;
- background-color: var(--color-grey-100);
+ padding: 1.6rem 2.4rem;
+ background-color: var(--color-grey-50);
+ border: 1px solid var(--color-grey-100);
  border-radius: var(--border-radius-md);
  margin-bottom: 2.4rem;
 
- p {
+ h5 {
   font-size: 1.4rem;
-  color: var(--color-grey-600);
+  color: var(--color-grey-500);
+  margin-bottom: 0.8rem;
  }
 
- p:last-child {
-  margin-top: 0.4rem;
+ p {
+  font-size: 1.2rem;
+  color: var(--color-grey-600);
+  margin: 0.3rem 0;
  }
 `;
 
@@ -45,7 +49,7 @@ export function LoginForm() {
  return (
   <>
    <TestCredentials>
-    <p>👋 Test credentials for demo:</p>
+    <h5>Demo Credentials</h5>
     <p>Email: test@example.com</p>
     <p>Password: asdf1234</p>
    </TestCredentials>
